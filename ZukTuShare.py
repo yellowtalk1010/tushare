@@ -20,6 +20,6 @@ def getPro_5000():
 
 def getPro_10000():
     # 20261201
-    token_100000 = "022fe0122b7c9829941beb898d20d5c19db0eb0c62ea8fee51c10000"
+    token_100000 = "022fe0122b7c9829941beb898d20d5c19db0eb0c62ea8fee51c100qq"
     pro = ts.pro_api(token_100000)
     return pro
