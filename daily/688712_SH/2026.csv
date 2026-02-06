@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
-0,688712.SH,20260205,50.31,55.8,47.0,49.64,17.52,32.12,183.3333,281637.79,1409495.114
+ts_code,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
+688712.SH,20260206,48.88,52.0,47.0,47.56,49.64,-2.08,-4.1902,165259.34,809150.405
+688712.SH,20260205,50.31,55.8,47.0,49.64,17.52,32.12,183.3333,281637.79,1409495.114
