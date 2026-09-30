@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,name,trade_date,close,turnover_rate,turnover_rate_f,volume_ratio,pe,pe_ttm,pb,ps,ps_ttm,dv_ratio,dv_ttm,total_share,float_share,free_share,total_mv,circ_mv,limit_status
-0,301716.SZ,N鸿富诚,20260929,578.88,84.5422,84.5422,,161.1809,122.2839,49.4138,61.3746,49.2763,,,7492.2424,1245.3343,1245.3343,4337107.8912,720896.6304,1
+ts_code,name,trade_date,close,turnover_rate,turnover_rate_f,volume_ratio,pe,pe_ttm,pb,ps,ps_ttm,dv_ratio,dv_ttm,total_share,float_share,free_share,total_mv,circ_mv,limit_status
+301716.SZ,C鸿富诚,20260930,586.6,45.0047,45.0047,,163.3304,123.9147,50.0728,62.1931,49.9335,,,7492.2424,1245.3343,1245.3343,4394947.984,730510.578,1
+301716.SZ,N鸿富诚,20260929,578.88,84.5422,84.5422,,161.1809,122.2839,49.4138,61.3746,49.2763,,,7492.2424,1245.3343,1245.3343,4337107.8912,720896.6304,1
