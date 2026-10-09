@@ -2,7 +2,7 @@ import tushare as ts
 from datetime import datetime, timedelta
 
 
-analysis_trade_date = "20261008"
+analysis_trade_date = "20261009"
 date_obj = datetime.strptime(analysis_trade_date, "%Y%m%d")
 year_str = date_obj.year
 analysis_trade_date_start = f"{year_str}0101" #组合当年的第一天
