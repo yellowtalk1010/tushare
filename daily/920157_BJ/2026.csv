@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,name,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
-0,920157.BJ,N宇特,20261009,81.1,86.38,72.01,75.55,13.75,61.8,449.4545,122020.63,958833.20633
+ts_code,name,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
+920157.BJ,宇特光电,20261012,76.18,88.88,70.4,71.1,75.55,-4.45,-5.8901,90855.99,728936.91808
+920157.BJ,N宇特,20261009,81.1,86.38,72.01,75.55,13.75,61.8,449.4545,122020.63,958833.20633
