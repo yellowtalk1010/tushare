@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
         if len(df) > 0:
             path = f"hm_detail/hm_detail-{pre_trade_day}.csv"
-            print(path)
+            print(f"保存：{path}, {len(df)}")
             df.to_csv(f"{path}", encoding="utf-8", index=False)
         else:
             print(f"数量为:{len(df)}，不保存")

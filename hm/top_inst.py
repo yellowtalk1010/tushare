@@ -51,7 +51,7 @@ def do_top_inst():
         df = top_inst(pre_trade_day)
         if len(df) > 0:
             path = f"top_inst/{year_str}/{pre_trade_day}_top_inst.csv"
-            print(f"保存到：{path}")
+            print(f"保存到：{path}, {len(df)}")
             df.to_csv(path, encoding="utf-8", index=False)
         else:
             print(f"数量为:{len(df)}，不保存")
