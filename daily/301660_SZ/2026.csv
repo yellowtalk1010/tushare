@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,name,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
-0,301660.SZ,N粤芯半导体,20261013,45.0,45.0,38.0,38.8,12.01,26.79,223.0641,1711578.0,7140360.93946
+ts_code,name,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
+301660.SZ,C粤芯半导体,20261014,35.24,37.96,33.24,34.26,38.8,-4.54,-11.701,1096713.67,3876339.7155
+301660.SZ,N粤芯半导体,20261013,45.0,45.0,38.0,38.8,12.01,26.79,223.0641,1711578.0,7140360.93946
