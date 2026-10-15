@@ -16566,6 +16566,11 @@
       <change beforePath="$PROJECT_DIR$/module/920982_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/920985_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/920992_BJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261008.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261008.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261009.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261012.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261012.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261013.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261013.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261014.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16879,7 +16884,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791975626609</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="commit">
+      <option name="closed" value="true" />
+      <created>1792048295377</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1792048295377</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit">
+      <option name="closed" value="true" />
+      <created>1792061020015</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1792061020015</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
