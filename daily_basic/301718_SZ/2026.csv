@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,name,trade_date,close,turnover_rate,turnover_rate_f,volume_ratio,pe,pe_ttm,pb,ps,ps_ttm,dv_ratio,dv_ttm,total_share,float_share,free_share,total_mv,circ_mv,limit_status
-0,301718.SZ,N通则康威,20261022,72.99,78.4825,78.4825,,111.5635,68.5423,13.9867,6.462,4.9964,,,14576.92,3456.6535,3456.6535,1063969.3908,252300.8835,1
+ts_code,name,trade_date,close,turnover_rate,turnover_rate_f,volume_ratio,pe,pe_ttm,pb,ps,ps_ttm,dv_ratio,dv_ttm,total_share,float_share,free_share,total_mv,circ_mv,limit_status
+301718.SZ,C通则康威,20261023,64.9,64.6135,64.6135,,99.1981,60.9453,12.4364,5.7458,4.4427,,,14576.92,3456.6535,3456.6535,946042.108,224336.585,4
+301718.SZ,N通则康威,20261022,72.99,78.4825,78.4825,,111.5635,68.5423,13.9867,6.462,4.9964,,,14576.92,3456.6535,3456.6535,1063969.3908,252300.8835,1
