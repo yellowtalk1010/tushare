@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,name,trade_date,close,turnover_rate,turnover_rate_f,volume_ratio,pe,pe_ttm,pb,ps,ps_ttm,dv_ratio,dv_ttm,total_share,float_share,free_share,total_mv,circ_mv,limit_status
-0,920285.BJ,N远大,20261023,35.32,96.8848,96.8848,,20.5857,20.1336,4.3641,2.4107,2.3538,,,6900.0,1800.0,1800.0,243708.0,63576.0,1
+ts_code,name,trade_date,close,turnover_rate,turnover_rate_f,volume_ratio,pe,pe_ttm,pb,ps,ps_ttm,dv_ratio,dv_ttm,total_share,float_share,free_share,total_mv,circ_mv,limit_status
+920285.BJ,远大健科,20261026,25.01,60.9278,60.9278,,14.5767,14.2566,3.0902,1.707,1.6667,,,6900.0,1800.0,1800.0,172569.0,45018.0,4
+920285.BJ,N远大,20261023,35.32,96.8848,96.8848,,20.5857,20.1336,4.3641,2.4107,2.3538,,,6900.0,1800.0,1800.0,243708.0,63576.0,1

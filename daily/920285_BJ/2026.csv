@@ -1,2 +1,3 @@
-Unnamed: 0,ts_code,name,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
-0,920285.BJ,N远大,20261023,30.21,47.66,30.21,35.32,20.3,15.02,73.9901,174392.7,610523.83544
+ts_code,name,trade_date,open,high,low,close,pre_close,change,pct_chg,vol,amount
+920285.BJ,远大健科,20261026,28.13,30.16,25.0,25.01,35.32,-10.31,-29.1903,109670.02,293540.81189
+920285.BJ,N远大,20261023,30.21,47.66,30.21,35.32,20.3,15.02,73.9901,174392.7,610523.83544
