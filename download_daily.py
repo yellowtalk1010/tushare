@@ -106,20 +106,19 @@ def download_trade_date(trade_date):
 
     year = trade_date[0:4] #取yyyyMMdd中的yyyy部分
     path = f"{daily_path}/{trade_date}.csv"
-    if os.path.exists(path) is False:
-        trade_date_df = down_load_daily("",
-                                        trade_date,
-                                        "",
-                                        "")
-        if len(trade_date_df) == 0:
-            print(f"下载的数据长度为:{len(trade_date_df)}，下载失败，检查日期是否格式错误，或非交易日")
-            return
-        else:
-            # 保存到文件中
-            trade_date_df.to_csv(path, index=False)
-            print(f"{path}，路径不存在，下载完成")
+
+    trade_date_df = down_load_daily("",
+                                    trade_date,
+                                    "",
+                                    "")
+    if len(trade_date_df) == 0:
+        print(f"下载的数据长度为:{len(trade_date_df)}，下载失败，检查日期是否格式错误，或非交易日")
+        return
     else:
-        print(f"{path}，路径存在，已下载完成")
+        # 保存到文件中
+        trade_date_df.to_csv(path, index=False)
+        print(f"{path}，下载完成")
+
 
     # 读取已经下载的文件
     flat_df = pd.read_csv(path,
