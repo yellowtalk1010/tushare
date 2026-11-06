@@ -1714,6 +1714,7 @@
       <change beforePath="$PROJECT_DIR$/daily/300234_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300234_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/300235_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300235_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/300236_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300236_SZ/2026.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily/300237_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300237_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/300238_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300238_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/300239_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300239_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/300240_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/300240_SZ/2026.csv" afterDir="false" />
@@ -7285,6 +7286,7 @@
       <change beforePath="$PROJECT_DIR$/daily_basic/300234_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300234_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/300235_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300235_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/300236_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300236_SZ/2026.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_basic/300237_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300237_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/300238_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300238_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/300239_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300239_SZ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/300240_SZ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/300240_SZ/2026.csv" afterDir="false" />
@@ -16582,7 +16584,11 @@
       <change beforePath="$PROJECT_DIR$/module/920982_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/920985_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/920992_BJ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261030.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261030.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261102.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261102.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261103.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261103.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261104.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261104.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261105.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261105.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16759,38 +16765,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790689908216</updated>
-    </task>
-    <task id="LOCAL-00001" summary="commit">
-      <option name="closed" value="true" />
-      <created>1790690107404</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1790690107404</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit">
-      <option name="closed" value="true" />
-      <created>1790690135498</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1790690135498</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit">
-      <option name="closed" value="true" />
-      <created>1790691184861</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1790691184861</updated>
-    </task>
-    <task id="LOCAL-00004" summary="commit">
-      <option name="closed" value="true" />
-      <created>1790736085212</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1790736085212</updated>
     </task>
     <task id="LOCAL-00005" summary="commit">
       <option name="closed" value="true" />
@@ -17152,7 +17126,39 @@
       <option name="project" value="LOCAL" />
       <updated>1793874479118</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="commit">
+      <option name="closed" value="true" />
+      <created>1793880398324</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1793880398324</updated>
+    </task>
+    <task id="LOCAL-00051" summary="commit">
+      <option name="closed" value="true" />
+      <created>1793883188840</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1793883188840</updated>
+    </task>
+    <task id="LOCAL-00052" summary="commit">
+      <option name="closed" value="true" />
+      <created>1793963400244</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1793963400244</updated>
+    </task>
+    <task id="LOCAL-00053" summary="commit">
+      <option name="closed" value="true" />
+      <created>1793963451244</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1793963451244</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
