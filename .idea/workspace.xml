@@ -3047,7 +3047,6 @@
       <change beforePath="$PROJECT_DIR$/daily/600182_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600182_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600183_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600183_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600184_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600184_SH/2026.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily/600185_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600185_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600186_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600186_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600187_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600187_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600188_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600188_SH/2026.csv" afterDir="false" />
@@ -8621,7 +8620,6 @@
       <change beforePath="$PROJECT_DIR$/daily_basic/600182_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600182_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600183_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600183_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600184_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600184_SH/2026.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_basic/600185_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600185_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600186_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600186_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600187_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600187_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600188_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600188_SH/2026.csv" afterDir="false" />
@@ -16765,22 +16763,6 @@
       <option name="presentableId" value="Default" />
       <updated>1790689908216</updated>
     </task>
-    <task id="LOCAL-00011" summary="commit">
-      <option name="closed" value="true" />
-      <created>1791802045152</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1791802045152</updated>
-    </task>
-    <task id="LOCAL-00012" summary="commit">
-      <option name="closed" value="true" />
-      <created>1791802170960</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1791802170960</updated>
-    </task>
     <task id="LOCAL-00013" summary="commit">
       <option name="closed" value="true" />
       <created>1791802239459</created>
@@ -17157,7 +17139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794395611645</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="commit">
+      <option name="closed" value="true" />
+      <created>1794486062179</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1794486062181</updated>
+    </task>
+    <task id="LOCAL-00061" summary="commit">
+      <option name="closed" value="true" />
+      <created>1794486073150</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1794486073150</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
