@@ -16585,7 +16585,6 @@
       <change beforePath="$PROJECT_DIR$/module/920985_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/920992_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261112.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261112.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261113.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261113.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16762,22 +16761,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790689908216</updated>
-    </task>
-    <task id="LOCAL-00015" summary="commit">
-      <option name="closed" value="true" />
-      <created>1791889961033</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1791889961033</updated>
-    </task>
-    <task id="LOCAL-00016" summary="commit">
-      <option name="closed" value="true" />
-      <created>1791942011544</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1791942011544</updated>
     </task>
     <task id="LOCAL-00017" summary="commit">
       <option name="closed" value="true" />
@@ -17155,7 +17138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794829432754</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="commit">
+      <option name="closed" value="true" />
+      <created>1794899958901</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1794899958901</updated>
+    </task>
+    <task id="LOCAL-00065" summary="commit">
+      <option name="closed" value="true" />
+      <created>1794912312405</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1794912312405</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
