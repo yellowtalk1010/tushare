@@ -3321,7 +3321,6 @@
       <change beforePath="$PROJECT_DIR$/daily/600562_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600562_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600563_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600563_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600566_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600566_SH/2026.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily/600567_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600567_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600568_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600568_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600569_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600569_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/600570_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/600570_SH/2026.csv" afterDir="false" />
@@ -4560,6 +4559,7 @@
       <change beforePath="$PROJECT_DIR$/daily/605218_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605218_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/605222_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605222_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/605228_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605228_SH/2026.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily/605255_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605255_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/605258_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605258_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/605259_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605259_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily/605266_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily/605266_SH/2026.csv" afterDir="false" />
@@ -8894,7 +8894,6 @@
       <change beforePath="$PROJECT_DIR$/daily_basic/600562_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600562_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600563_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600563_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600566_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600566_SH/2026.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_basic/600567_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600567_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600568_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600568_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600569_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600569_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/600570_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/600570_SH/2026.csv" afterDir="false" />
@@ -10133,6 +10132,7 @@
       <change beforePath="$PROJECT_DIR$/daily_basic/605218_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605218_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/605222_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605222_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/605228_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605228_SH/2026.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_basic/605255_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605255_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/605258_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605258_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/605259_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605259_SH/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/605266_SH/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/605266_SH/2026.csv" afterDir="false" />
@@ -11152,7 +11152,7 @@
       <change beforePath="$PROJECT_DIR$/daily_basic/920982_BJ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/920982_BJ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/920985_BJ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/920985_BJ/2026.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_basic/920992_BJ/2026.csv" beforeDir="false" afterPath="$PROJECT_DIR$/daily_basic/920992_BJ/2026.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm/top_inst/2026/20261113_top_inst.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hm/top_inst/2026/20261113_top_inst.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm/top_inst/2026/20261117_top_inst.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hm/top_inst/2026/20261117_top_inst.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/000001_SZ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/000002_SZ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/000006_SZ.csv" beforeDir="false" />
@@ -16588,7 +16588,6 @@
       <change beforePath="$PROJECT_DIR$/module/920985_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module/920992_BJ.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261112.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261112.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261117.csv" beforeDir="false" afterPath="$PROJECT_DIR$/moneyflow/data/moneyflow_dc/20261117.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16765,14 +16764,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790689908216</updated>
-    </task>
-    <task id="LOCAL-00019" summary="commit">
-      <option name="closed" value="true" />
-      <created>1792061020015</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1792061020015</updated>
     </task>
     <task id="LOCAL-00020" summary="commit">
       <option name="closed" value="true" />
@@ -17158,7 +17149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795005408155</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="commit">
+      <option name="closed" value="true" />
+      <created>1795097819375</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1795097819375</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
