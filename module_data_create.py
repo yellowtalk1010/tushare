@@ -88,7 +88,7 @@ def create_module_date():
 
         daily_df = pd.concat(daily_frames, ignore_index=True) if daily_frames else pd.DataFrame()
         daily_basic_df = pd.concat(daily_basic_frames, ignore_index=True) if daily_basic_frames else pd.DataFrame()
-        
+
         if (len(daily_df) != daily_frames_len
                 or len(daily_basic_df) != daily_basic_frames_len):
             print("数据长度不一致..................")
@@ -144,7 +144,7 @@ def create_module_date():
                     compare_ok = False
         if(compare_ok is False):
             print("数据不一致")
-            continue
+            sys.exit(1)
 
         sub_df = pd.DataFrame({
             "ts_code": daily_df_top_max["ts_code"],                      # 股票代码
