@@ -51,7 +51,9 @@ def create_module_date():
         ts_code_path = ts_code.replace(".", "_") #将tushare的股票代码000001.SZ转成000001_SZ
 
         daily_frames = []
+        daily_frames_len = 0
         daily_basic_frames = []
+        daily_basic_frames_len = 0
         # 构建数据文件的路径
         #
         ts_code_abspath_daily = daily_map.get(ts_code_path)
@@ -61,7 +63,7 @@ def create_module_date():
             print(f"{ts_code}，${name}在daily，或daily_basic路径不存在")
             sys.exit(1)
         else:
-            time = 3 #仅拼接近3年的数据
+            time = 2 #仅拼接近3年的数据
             for stock_year_file_csv in sorted(os.listdir(ts_code_abspath_daily), reverse=True):
                 time = time - 1
                 if time < 0:
@@ -81,8 +83,15 @@ def create_module_date():
                     daily_frames.append(daily_df_2026)
                     daily_basic_frames.append(daily_basic_df_2026)
 
+                    daily_frames_len = daily_frames_len + len(daily_df_2026)
+                    daily_basic_frames_len = daily_basic_frames_len + len(daily_basic_df_2026)
+
         daily_df = pd.concat(daily_frames, ignore_index=True) if daily_frames else pd.DataFrame()
         daily_basic_df = pd.concat(daily_basic_frames, ignore_index=True) if daily_basic_frames else pd.DataFrame()
+        if len(daily_df) != daily_frames_len or len(daily_basic_df) != daily_basic_frames_len:
+            print("数据长度不一致..................")
+            sys.exit(1)
+
 
 
         # daily_file_2026 = daily_path + "/" + ts_code_path + "/" + "2026.csv"
