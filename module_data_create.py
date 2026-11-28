@@ -119,11 +119,12 @@ def create_module_date():
 
         if(len(daily_df) != len(daily_basic_df)):
             print(f"{len(daily_df)}, {len(daily_basic_df)}数据不相等，严重异常")
-            continue
+            sys.exit(1)
 
         tradedate_list = list(daily_df["trade_date"])
         if not is_decreasing(tradedate_list):
             print("交易日期异常，严重错误")
+            sys.exit(1)
 
         if len(daily_df) < max or len(daily_basic_df) < max:
             print(f"{ts_code},{name},可能是新股，数量不足{max}")
