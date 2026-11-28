@@ -32,7 +32,7 @@ def create_module_date():
     daily_basic_abspath = os.path.abspath(daily_basic_path)
     daily_basic_map = {}
     for dir_name in os.listdir(daily_basic_abspath):
-        daily_basic_abs_dir = os.path.normpath(os.path.join(daily_basic_abspath, dir_name))
+        daily_basic_abs_dir = os.path.normpath(os.path.join(daily_basic_abspath, dir_name)) #统一格式，不允许\,/混用
         daily_basic_map[dir_name] = daily_basic_abs_dir
         # print(f"输出绝对路径:{daily_basic_abs_dir}")
 
