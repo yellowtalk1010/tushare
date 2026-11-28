@@ -19,6 +19,25 @@ def is_decreasing(lst):
 
 def create_module_date():
     print("创建分析数据")
+
+    # 将daily文件夹中的文件转成map格式，key是股票代码，value是绝对路径
+    daily_abspath = os.path.abspath(daily_path)
+    daily_map = {}
+    for dir_name in os.listdir(daily_abspath):
+        daily_abs_dir = os.path.normpath(os.path.join(daily_abspath, dir_name)) #统一格式，不允许\,/混用
+        daily_map[dir_name] = daily_abs_dir
+        # print(f"输出绝对路径:{daily_abs_dir}")
+
+    # 将daily_basic_path文件夹中的文件转成map格式，key是股票代码，value是绝对路径
+    daily_basic_abspath = os.path.abspath(daily_basic_path)
+    daily_basic_map = {}
+    for dir_name in os.listdir(daily_basic_abspath):
+        daily_basic_abs_dir = os.path.normpath(os.path.join(daily_basic_abspath, dir_name))
+        daily_basic_map[dir_name] = daily_basic_abs_dir
+        # print(f"输出绝对路径:{daily_basic_abs_dir}")
+
+
+
     all_stocks = pd.read_csv("all_stocks.csv", encoding="utf-8")
     for index, stock_row in all_stocks.iterrows():
         ts_code = stock_row["ts_code"]
