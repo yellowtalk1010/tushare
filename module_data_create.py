@@ -61,7 +61,7 @@ def create_module_date():
             print(f"{ts_code}，${name}在daily，或daily_basic路径不存在")
             sys.exit(1)
         else:
-            time = 2 #仅拼接近3年的数据
+            time = 3 #仅拼接近3年的数据
             for stock_year_file_csv in sorted(os.listdir(ts_code_abspath_daily), reverse=True):
                 time = time - 1
                 if time < 0:
