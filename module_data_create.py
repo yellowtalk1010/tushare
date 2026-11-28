@@ -89,6 +89,9 @@ def create_module_date():
         daily_df = pd.concat(daily_frames, ignore_index=True) if daily_frames else pd.DataFrame()
         daily_basic_df = pd.concat(daily_basic_frames, ignore_index=True) if daily_basic_frames else pd.DataFrame()
 
+        daily_df = daily_df[daily_df["trade_date"] <= ZukTuShare.analysis_trade_date].reset_index(drop=True)
+        daily_basic_df = daily_basic_df[daily_df["trade_date"] <= ZukTuShare.analysis_trade_date].reset_index(drop=True)
+
         if (len(daily_df) != daily_frames_len
                 or len(daily_basic_df) != daily_basic_frames_len):
             print("数据长度不一致..................")
