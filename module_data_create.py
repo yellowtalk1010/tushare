@@ -1,4 +1,5 @@
 import os
+import sys
 
 import tushare as ts
 import pandas as pd
@@ -47,32 +48,65 @@ def create_module_date():
         market = stock_row["market"]
 
         print(ts_code, name)
-        ts_code_path = ts_code.replace(".", "_")
+        ts_code_path = ts_code.replace(".", "_") #将tushare的股票代码000001.SZ转成000001_SZ
 
+        daily_frames = []
+        daily_basic_frames = []
         # 构建数据文件的路径
         #
-        daily_file_2026 = daily_path + "/" + ts_code_path + "/" + "2026.csv"
-        daily_basic_file_2026 = daily_basic_path + "/" + ts_code_path + "/" + "2026.csv"
-        if not os.path.exists(daily_file_2026) or not os.path.exists(daily_basic_file_2026):
-            # 判断数据文件路径是否存在
-            print(f"{daily_file_2026}, {daily_basic_file_2026} 文件不存在")
-            continue
-        daily_df_2026 = pd.read_csv(daily_file_2026, encoding="utf-8")
-        daily_basic_df_2026 = pd.read_csv(daily_basic_file_2026, encoding="utf-8")
+        ts_code_abspath_daily = daily_map.get(ts_code_path)
+        ts_code_abspath_daily_basic = daily_basic_map.get(ts_code_path)
+        if (ts_code_abspath_daily is None
+                or ts_code_abspath_daily_basic is None):
+            print(f"{ts_code}，${name}在daily，或daily_basic路径不存在")
+            sys.exit(1)
+        else:
+            time = 2 #仅拼接近3年的数据
+            for stock_year_file_csv in sorted(os.listdir(ts_code_abspath_daily), reverse=True):
+                time = time - 1
+                if time < 0:
+                    break
 
-        ##
-        daily_file_2025 = daily_path + "/" + ts_code_path + "/" + "2025.csv"
-        daily_basic_file_2025 = daily_basic_path + "/" + ts_code_path + "/" + "2025.csv"
-        if not os.path.exists(daily_file_2025) or not os.path.exists(daily_basic_file_2025):
-            # 判断数据文件路径是否存在
-            print(f"{daily_file_2025}, {daily_basic_file_2025} 文件不存在")
-            continue
-        daily_df_2025 = pd.read_csv(daily_file_2025, encoding="utf-8")
-        daily_basic_df_2025 = pd.read_csv(daily_basic_file_2025, encoding="utf-8")
+                # 将股票的年份数据从大到小排序
+                daily_stock_year_file = os.path.normpath(os.path.join(ts_code_abspath_daily, stock_year_file_csv))
+                daily_basic_stock_year_file = os.path.normpath(os.path.join(ts_code_abspath_daily_basic, stock_year_file_csv))
+                if (not os.path.exists(daily_stock_year_file)
+                        or not os.path.exists(daily_basic_stock_year_file)) :
+                    print(f"{daily_stock_year_file}，或${daily_basic_stock_year_file} 文件不存在")
+                    sys.exit(1)
+                else:
+                    daily_df_2026 = pd.read_csv(daily_stock_year_file, encoding="utf-8")
+                    daily_basic_df_2026 = pd.read_csv(daily_basic_stock_year_file, encoding="utf-8")
 
-        # 上下拼接
-        daily_df = pd.concat([daily_df_2026, daily_df_2025], ignore_index=True)
-        daily_basic_df = pd.concat([daily_basic_df_2026, daily_basic_df_2025], ignore_index=True)
+                    daily_frames.append(daily_df_2026)
+                    daily_basic_frames.append(daily_basic_df_2026)
+
+        daily_df = pd.concat(daily_frames, ignore_index=True) if daily_frames else pd.DataFrame()
+        daily_basic_df = pd.concat(daily_basic_frames, ignore_index=True) if daily_basic_frames else pd.DataFrame()
+
+
+        # daily_file_2026 = daily_path + "/" + ts_code_path + "/" + "2026.csv"
+        # daily_basic_file_2026 = daily_basic_path + "/" + ts_code_path + "/" + "2026.csv"
+        # if not os.path.exists(daily_file_2026) or not os.path.exists(daily_basic_file_2026):
+        #     # 判断数据文件路径是否存在
+        #     print(f"{daily_file_2026}, {daily_basic_file_2026} 文件不存在")
+        #     continue
+        # daily_df_2026 = pd.read_csv(daily_file_2026, encoding="utf-8")
+        # daily_basic_df_2026 = pd.read_csv(daily_basic_file_2026, encoding="utf-8")
+        #
+        # ##
+        # daily_file_2025 = daily_path + "/" + ts_code_path + "/" + "2025.csv"
+        # daily_basic_file_2025 = daily_basic_path + "/" + ts_code_path + "/" + "2025.csv"
+        # if not os.path.exists(daily_file_2025) or not os.path.exists(daily_basic_file_2025):
+        #     # 判断数据文件路径是否存在
+        #     print(f"{daily_file_2025}, {daily_basic_file_2025} 文件不存在")
+        #     continue
+        # daily_df_2025 = pd.read_csv(daily_file_2025, encoding="utf-8")
+        # daily_basic_df_2025 = pd.read_csv(daily_basic_file_2025, encoding="utf-8")
+        #
+        # # 上下拼接
+        # daily_df = pd.concat([daily_df_2026, daily_df_2025], ignore_index=True)
+        # daily_basic_df = pd.concat([daily_basic_df_2026, daily_basic_df_2025], ignore_index=True)
 
         if(len(daily_df) != len(daily_basic_df)):
             print(f"{len(daily_df)}, {len(daily_basic_df)}数据不相等，严重异常")
