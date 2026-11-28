@@ -118,7 +118,7 @@ def create_module_date():
         # daily_basic_df = pd.concat([daily_basic_df_2026, daily_basic_df_2025], ignore_index=True)
 
         if(len(daily_df) != len(daily_basic_df)):
-            print(f"{len(daily_df)}, {len(daily_basic_df)}数据不相等，严重异常")
+            print(f"daily_df: {len(daily_df)}, daily_basic_df: {len(daily_basic_df)}数据不相等，严重异常")
             sys.exit(1)
 
         tradedate_list = list(daily_df["trade_date"])
