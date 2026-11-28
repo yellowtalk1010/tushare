@@ -123,7 +123,7 @@ def create_module_date():
 
         tradedate_list = list(daily_df["trade_date"])
         if not is_decreasing(tradedate_list):
-            print("交易日期异常，严重错误")
+            print("交易日期顺序混乱，不是严格递减，严重错误")
             sys.exit(1)
 
         if len(daily_df) < max or len(daily_basic_df) < max:
